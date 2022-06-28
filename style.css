@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #0d192b;
+    color: #ffffff;    
+}
+.container{
+    margin: 150px auto;
+    max-width: 350px;
+    background-color: #14253d;
+    border: none;
+    border-radius: 15px;
+}
+.image{
+    max-width: 300px;
+    max-height: 300px;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #00ffff;
+}
+.icon {
+    color: #ffffff;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.box:hover .overlay {
+    opacity: 0.5;
+  }
+   
+.header p{
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 0 15px 30px;
+    color: #ffffff;
+}
+.header p:hover{
+    color: #00ffff;
+}
+.main p{
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0 0 15px 30px;
+    color: #8bacda;
+}
+.productinfo{
+    display: flex;
+    padding: 0 0 15px 30px;
+}
+.productinfo .one{
+    color: #00fff7;
+    padding-right: 100px;
+    padding-left: 10px;    
+}
+.productinfo .two{
+    color: #8bacda;
+    padding-left: 10px;        
+}
+hr{
+    max-width: 90%; 
+    margin: 0 15px;
+    color: #2f415b;
+}
+.contentinfo{
+    padding: 20px;
+    color: #8bacda;   
+    display: flex;
+}
+.contentinfo img{
+    max-width: 40px;
+    max-height: 40px;
+    border: solid #ffffff 1px;
+    border-radius: 50%;
+}
+.contentinfo p{
+    padding: 10px;
+}
+.contentinfo a{
+    color: #ffffff;
+}
+.contentinfo a:hover{
+    color: #00ffff;
+}
+.footer { 
+    font-size: 14px; 
+    text-align: center; 
+    padding: 20px;
+}
+.footer a { 
+    color: #3e52a3; 
+}
